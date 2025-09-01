@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+            rel="stylesheet">
+        <title>Joyal Portfolio</title>
+    </head>
+    <body style="font-family: Noto Sans; margin: 0;">
+
+        <!-- Header -->
+
+        <header style="border-bottom: 1px solid #cececea9;">
+
+            <!-- Logo & Navigation Links -->
+
+            <nav
+                style="display: flex; gap: 42rem; justify-content: center; align-items: center;">
+                <h2><a href="index.html"
+                        style="text-decoration: none; color: #333;">Joyal</a></h2>
+
+                <ul style="display: flex; gap: 2rem; list-style-type: none;">
+                    <li><a style="text-decoration: none; color: #333;"
+                            href="#about">About</a></li>
+                    <li><a style="text-decoration: none; color: #333;"
+                            href="#projects">Projects</a></li>
+                    <li><a style="text-decoration: none; color: #333;"
+                            href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+
+        <main style="margin: 64px 72px">
+
+            <br>
+            <br>
+            <br>
+
+            <!-- About Section -->
+
+            <section id="about" style="display: flex; justify-content: center;">
+                <div>
+                    <h1>About Me</h1>
+                    <p
+                        style="font-size: 18px; text-align: justify; max-width: 40rem;">“Hi,
+                        I’m <strong>Joyal,</strong> a passionate <strong>
+                            designer</strong> and aspiring <strong>full stack
+                            developer.</strong>
+                        I love combining creativity and technology to build
+                        meaningful designs and user-friendly websites.
+                        Currently, I’m learning the MERN stack and exploring
+                        ways to merge design with development.
+                        I enjoy working on projects that solve real problems and
+                        create value for people.
+                        <strong>My goal is to grow into a versatile developer
+                        </strong>who can bring both design and functionality
+                        together.”</p>
+                </div>
+                <img src="images/pfp.png" alt="Joyal Ks" width="290px"
+                    height="auto" style="padding: 0px 70px;">
+            </section>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <!-- Project Section -->
+
+            <article id="projects" style="background: #f5f5f5; padding: 25px;">
+                <h2 style="padding-left: 8rem;">Projects</h2>
+                <br>
+
+                <ul
+                    style="display: flex; gap: 5rem; list-style: none; justify-content: center;">
+                    <!-- Project 1 -->
+                    <li style="max-width: 20rem;">
+                        <img src="images/web-projects.jpg"
+                            alt="Website Projects" width="300rem" height="auto">
+                        <h3>Mariya Bhavanam Website</h3>
+                        <p>A complete website designed for <br>
+                            Mariya Bhavanam Charitable Trust, <br>
+                            focusing on clarity, accessibility, <br>
+                            and a user-friendly layout.</p>
+                        <h4>Website Link : <a target="_blank"
+                                href="https://mariyabhavanam.org/">mariyabhavanam.org</a></h4>
+                    </li>
+
+                    <!-- Project 2 -->
+
+                    <li style="max-width: 20rem;">
+                        <img src="images/Dashboard.png" alt="Poster Projects"
+                            width="300rem" height="auto">
+                        <h3>Dashboard UI</h3>
+                        <p>A clean and minimal dashboard interface<br>
+                            designed for an old age home management <br>
+                            system, featuring intuitive navigation<br>
+                            and modern design.</p>
+                        <h4>Figma Link : <a target="_blank"
+                                href="https://www.figma.com/design/gICV0emuAV19g3Jeoh48IW/Dashboard?node-id=226-145&t=VZAVYbaIsJtPUjeP-1">Preview</a></h4>
+                    </li>
+
+                    <!-- Project 3 -->
+
+                    <li style="max-width: 20rem;">
+                        <img src="images/posters.png" alt="Poster Projects"
+                            width="300rem" height="auto">
+                        <h3>Poster & Graphic Works</h3>
+                        <p>A collection of creative posters, covers,<br>
+                            and digital artworks created for NGOs <br>
+                            and organizations, blending visual<br>
+                            storytelling with impactful design.</p>
+                        <h4> Posters Link : <a target="_blank"
+                                href="Posters">View Posters</a></h4>
+                    </li>
+
+                </ul>
+            </article>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <!-- Contact Section -->
+
+            <section id="contact">
+                <h2 style="text-align: center; ">Let's Work Together <br>
+                    <strong>Contact Me</strong> </h2>
+                <br>
+                <form action="#" method="get"
+                    style="display: grid;align-content: center; justify-content: center;">
+
+                    <!-- Name Input -->
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="name" required id="name"
+                        placeholder="Enter your full name" minlength="5"
+                        maxlength="40" pattern="[A-Za-z ]{3,40}"
+                        title="Name must be letters only, 3–40 characters"
+                        style="padding: 10px 10px">
+                    <br>
+
+                    <!-- Email Input -->
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="email" required id="email"
+                        placeholder="Enter your email address"
+                        pattern=".+@.+\..+" title="Enter a valid email"
+                        style="padding: 10px 10px">
+                    <br>
+
+                    <!-- Phone Number Input -->
+                    <label for="phone">Phone Number</label>
+                    <br>
+                    <input type="tel" name="phone" required id="phone"
+                        placeholder="Enter Your 10-digit Phone Number"
+                        pattern="[0-9]{10}" style="padding: 10px 10px">
+                    <br>
+
+                    <!-- Subject Input -->
+
+                    <label for="subject">Subject</label>
+                    <br>
+                    <input type="text" name="subject" id="subject"
+                        placeholder="What is this about?" minlength="5"
+                        maxlength="50" style="padding: 10px 10px">
+                    <br>
+
+                    <!-- Dropdown  -->
+
+                    <label for="reason">Reason for Contact</label>
+                    <br>
+                    <select id="reason" name="reason"
+                        style="padding: 10px 10px">
+                        <option value="general">General Inquiry</option>
+                        <option value="project">Project Collaboration</option>
+                        <option value="work">Work Opportunity</option>
+                    </select>
+                    <br>
+
+                    <!-- Message Input -->
+
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea id="message" name="message"
+                        placeholder="Write your message here..." rows="5"
+                        minlength="10" maxlength="500"
+                        style="padding:10px; width: 400px;"></textarea>
+                    <br>
+
+                    <!-- Subject Input -->
+                    <button type="submit"
+                        style="padding: 12px 80px; background: #fff;">Send
+                        Message</button>
+
+                </form>
+
+            </section>
+
+        </main>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!-- Footer -->
+
+        <footer
+            style="background-color: #f8f8f8; display: grid; align-content: center; justify-content: center;">
+            <h2><a href="index.html"
+                    style="text-decoration: none; color: #333; display: flex; justify-content: center; ">Joyal</a></h2>
+            <ul
+                style="display: flex; justify-content: center;  gap: 2rem; list-style-type: none;">
+                <li><a style="text-decoration: none; color: #333;"
+                        href="#about">About</a></li>
+                <li><a style="text-decoration: none; color: #333;"
+                        href="#projects">Projects</a></li>
+                <li><a style="text-decoration: none; color: #333;"
+                        href="#contact">Contact</a></li>
+            </ul>
+            <p>&copy;2025 Joyal K.S. | Portfolio With Valid Contact Form
+                Project</p>
+        </footer>
+
+    </body>
+</html>
